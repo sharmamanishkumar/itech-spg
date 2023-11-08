@@ -235,4 +235,12 @@
 
 .mss_topMar:hover {
   margin-top: -2rem;
+  transition: 0.8s ease-in-out;
+}
+
+.mss_request:hover {
+  background-color: #617c88;
+}
+.mss_client:hover {
+  background-color: #617c88;
 }
