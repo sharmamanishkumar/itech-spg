@@ -1,4 +1,8 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .mss_lineImg {
+    height: 8rem;
+    width: 26rem;
+  }
   .mss_bottom_circle {
     height: 10rem;
     width: 10rem;
