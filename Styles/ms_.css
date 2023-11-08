@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mss_request {
+  color: #d1ccc1;
+  background-color: #5454ac;
+  padding: 10px 40px;
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+}
+.mss_client {
+  border: 1px solid rebeccapurple;
+  color: #a4d5db;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+}
+.mss_home {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Space Grotesk", sans-serif;
+}
+.mss_home1 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Space Grotesk", sans-serif;
+}
+.mss_home2 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Space Grotesk", sans-serif;
+}
+.mss_mainSection {
+  padding: 6rem 0;
+  overflow: hidden;
+}
+.mss_desc {
+}
+.mss_desc_div {
+  line-height: 8px;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.mss_desc_div p {
+  font-family: "DM Sans", sans-serif;
+  color: #617c88;
+  font-size: 20px;
+  font-weight: 500;
+}
+.mss_heding_succ {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.mss_left_top_line {
+  position: absolute;
+  top: -6rem;
+  left: -15rem;
+}
+.mss_mainDiv {
+  position: relative;
+}
+.mss_lineImg {
+  height: 19rem;
+  width: 29rem;
+}
+.mss_bottom_circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: #ffffff1c;
+  position: absolute;
+  left: -8rem;
+}
+.mss_right_line {
+  position: absolute;
+  top: 2.2rem;
+  right: -4.5rem;
+}
+.mss_right_linImg {
+  width: 50rem;
+  height: 20rem;
+}
+.mss_cardSection {
+  height: 423px;
+  width: 325px;
+  filter: drop-shadow(4px 10px 17px #07003b1f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.ms_circleImgage {
+  height: 144.16px;
+  width: 144.16px;
+  margin-top: 2rem;
+}
+.mss_name {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  filter: drop-shadow(4px 5px 3px #38484f);
+  color: #38484f;
+}
+.mss_name_position {
+  font-family: "DM Sans", sans-serif;
+
+  filter: drop-shadow(4px 5px 3px #a4d5db);
+  color: #a4d5db;
+  font-size: 16px;
+  font-weight: 500;
+}
+.mss_in {
+  font-family: "Space Grotesk", sans-serif;
+
+  border-radius: 50%;
+  background-color: #a4d5db;
+  padding: 9px 16px;
+  font-size: 22px;
+  font-weight: 1000;
+}
+.mss_inID {
+  padding: 10px 30px;
+  background-color: #5454ac;
+  color: #d1ccc1;
+}
+.mss_handDirectionDiv {
+  position: absolute;
+  bottom: -2rem;
+  right: 2rem;
+}
+.mss_handDirection {
+  height: 9rem;
+}
+.mss_card_section {
+  position: relative;
+  top: -4rem;
+}
+.mss_thirdCardSection {
+  margin-top: 3rem;
+}
+.mss_footerMainDiv {
+  /* margin-top: 3rem; */
+}
+.ms_footerSection {
+  background-color: #a4d5db;
+  padding: 3rem 0;
+  margin-top: 6rem;
+  overflow: hidden;
+}
+.ms_anchor {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  color: #38484f5b;
+}
+
+.mss_fotHead {
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  color: #5454ac;
+}
+.mss_empower {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: #38484f;
+}
+.mss_copy {
+  font-family: "Space Grotesk", sans-serif;
+
+  width: 80%;
+  font-size: 16px;
+  font-weight: 300;
+}
+.mss_protected {
+  font-size: 16px;
+  font-weight: 300;
+  color: #38484f;
+}
+.mss_foterDesc {
+  width: 50%;
+}
+.mss_language {
+  height: 21px;
+}
+.mss_btn-secondary {
+  padding: 5px 20px;
+  background: #a4d5db;
+  border-radius: 1000px;
+  border: 1px solid #5454ac;
+  color: #5454ac;
+  /* border: none; */
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.mss_language {
+}
+.mss_footerLIneOne {
+  top: -5rem;
+  left: -6rem;
+  height: 10rem;
+  width: 30rem;
+}
+
+.mss_footerCircleOne {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: #ffffff1f;
+  bottom: -7rem;
+  left: -6rem;
+}
+.mss_nav_ul {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
