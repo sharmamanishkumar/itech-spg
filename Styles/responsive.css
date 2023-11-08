@@ -1,4 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .mss_iconFacebook {
+    height: 70% !important;
+  }
   .mss_cast {
     margin: 0 !important;
   }
@@ -41,6 +44,9 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .mss_iconFacebook {
+    height: 70% !important;
+  }
   .mss_cast {
     margin: 0 !important;
   }
@@ -124,7 +130,7 @@
   .mss_right_line {
     position: absolute;
     top: 0rem;
-    right: 5rem;
+    right: -1rem;
   }
   .mss_handDirectionDiv {
     position: absolute;
