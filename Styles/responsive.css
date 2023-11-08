@@ -81,6 +81,11 @@
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+  .mss_right_line {
+    position: absolute;
+    top: 11.2rem;
+    right: -2.5rem;
+  }
   .mss_cast {
     margin: 0 !important;
   }
