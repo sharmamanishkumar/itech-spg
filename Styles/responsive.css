@@ -153,4 +153,18 @@
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {
+  .mss_cardSection {
+    height: 393px;
+    width: 250px;
+    filter: drop-shadow(4px 10px 17px #07003b1f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .mss_handDirectionDiv {
+    position: absolute;
+    bottom: -2rem;
+    right: 8rem;
+  }
 }
