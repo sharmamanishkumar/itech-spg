@@ -121,6 +121,11 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .mss_right_line {
+    position: absolute;
+    top: 0rem;
+    right: 5rem;
+  }
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -2rem;
