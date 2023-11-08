@@ -1,4 +1,12 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .mss_bottom_circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: #ffffff1c;
+    position: absolute;
+    left: -3rem;
+  }
   .mss_iconFacebook {
     height: 70% !important;
   }
