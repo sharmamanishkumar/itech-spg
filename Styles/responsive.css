@@ -34,7 +34,7 @@
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -5rem;
-    right: 5rem;
+    right: 8rem;
   }
   .mss_handDirection {
     height: 5rem;
@@ -79,7 +79,7 @@
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -5rem;
-    right: 6rem;
+    right: 12rem;
   }
   .mss_handDirection {
     height: 5rem;
@@ -121,7 +121,7 @@
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -5rem;
-    right: 2rem;
+    right: 7rem;
   }
   .mss_thirdCardSection {
     margin-top: 0rem;
@@ -147,7 +147,7 @@
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -2rem;
-    right: 12rem;
+    right: 16rem;
   }
   .mss_handDirection {
     height: 5rem;
@@ -168,6 +168,11 @@
     justify-content: center;
     border-radius: 20px;
   }
+  .mss_handDirectionDiv {
+    position: absolute;
+    bottom: -2rem;
+    right: 6rem;
+  }
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {
@@ -183,6 +188,6 @@
   .mss_handDirectionDiv {
     position: absolute;
     bottom: -2rem;
-    right: 8rem;
+    right: 11rem;
   }
 }
