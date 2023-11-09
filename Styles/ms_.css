@@ -42,7 +42,7 @@
 .mss_desc {
 }
 .mss_desc_div {
-  line-height: 8px;
+  /* line-height: 8px; */
   margin-top: 2rem;
   position: relative;
   z-index: 1;
@@ -52,6 +52,7 @@
   color: #617c88;
   font-size: 20px;
   font-weight: 500;
+  width: ;
 }
 .mss_heding_succ {
   font-family: "Space Grotesk", sans-serif;
