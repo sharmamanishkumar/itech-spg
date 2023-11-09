@@ -101,7 +101,7 @@
 .ms_circleImgage {
   height: 144.16px;
   width: 144.16px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .mss_name {
   font-family: "Space Grotesk", sans-serif;
@@ -131,6 +131,7 @@
   padding: 10px 30px;
   background-color: #5454ac;
   color: #d1ccc1;
+  margin: 0 auto;
 }
 .mss_handDirectionDiv {
   position: absolute;
@@ -179,7 +180,7 @@
 .mss_copy {
   font-family: "Space Grotesk", sans-serif;
 
-  width: 80%;
+  width: 64%;
   font-size: 16px;
   font-weight: 300;
 }
@@ -230,10 +231,10 @@
 }
 .mss_ImagCircle6 {
   height: 144.16px;
-  width: 134px;
+  width: 144.16px;
   background-color: #60e1cb19;
   border-radius: 50%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .mss_topMar:hover {
@@ -251,6 +252,17 @@
   transform: rotate(30deg);
   transition: 0.8s ease-in-out;
 }
+
+.mss_topMarCard1 {
+  position: relative;
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
 .mss_topMarCard2:hover {
   transform: rotate(-30deg);
   transition: 0.8s ease-in-out;
@@ -274,4 +286,58 @@
 .mss_topMarCard6:hover {
   transform: rotate(-30deg);
   transition: 0.8s ease-in-out;
+}
+/* flip card */
+.flip-card {
+  background-color: transparent;
+  /* width: 300px;
+  height: 300px; */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.flip-card:focus {
+  outline: 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-front {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  color: black;
+  z-index: 2;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  /* color: white; */
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
