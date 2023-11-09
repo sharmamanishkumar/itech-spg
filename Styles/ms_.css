@@ -221,7 +221,7 @@
   background-color: #ffffff1f;
   bottom: -7rem;
   left: -6rem;
-  display: none;
+  /* display: none; */
 }
 .mss_nav_ul {
   display: flex;
