@@ -115,6 +115,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+  .mss_handDirection {
+    height: 5rem;
+  }
   .mss_cardSection {
     margin-top: 3rem;
   }
@@ -128,8 +131,8 @@
   }
   .mss_right_line {
     position: absolute;
-    top: 8rem;
-    right: -3.5rem;
+    top: 6rem;
+    right: -1.5rem;
   }
   .mss_cast {
     margin: 0 !important;
@@ -174,12 +177,12 @@
   }
   .mss_right_line {
     position: absolute;
-    top: 0rem;
+    top: 4rem;
     right: -1rem;
   }
   .mss_handDirectionDiv {
     position: absolute;
-    bottom: -2rem;
+    bottom: -4rem;
     right: 16rem;
   }
   .mss_handDirection {
@@ -192,6 +195,10 @@
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
+  .mss_desc_div p {
+    margin: 0;
+    width: 60%;
+  }
   .mss_right_line {
     position: absolute;
     top: 6rem;

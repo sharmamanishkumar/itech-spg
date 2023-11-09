@@ -52,7 +52,7 @@
   color: #617c88;
   font-size: 20px;
   font-weight: 500;
-  width: ;
+  width: 60%;
 }
 .mss_heding_succ {
   font-family: "Space Grotesk", sans-serif;
@@ -69,8 +69,8 @@
   position: relative;
 }
 .mss_lineImg {
-  height: 19rem;
-  width: 29rem;
+  height: 21rem;
+  width: 35rem;
 }
 .mss_bottom_circle {
   height: 10rem;
@@ -220,6 +220,7 @@
   background-color: #ffffff1f;
   bottom: -7rem;
   left: -6rem;
+  display: none;
 }
 .mss_nav_ul {
   display: flex;
