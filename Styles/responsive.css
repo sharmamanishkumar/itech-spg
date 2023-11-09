@@ -1,4 +1,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .mss_cardSection {
+    margin-top: 2rem;
+  }
+  .mss_desc_div p {
+    margin: 0;
+  }
   .mss_lineImg {
     height: 8rem;
     width: 26rem;
@@ -56,6 +62,12 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .mss_cardSection {
+    margin-top: 2rem;
+  }
+  .mss_desc_div p {
+    margin: 0;
+  }
   .mss_iconFacebook {
     height: 70% !important;
   }
@@ -99,6 +111,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+  .mss_desc_div p {
+    margin: 0;
+  }
   .mss_right_line {
     position: absolute;
     top: 11.2rem;
@@ -139,6 +154,9 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .mss_desc_div p {
+    margin: 0;
+  }
   .mss_right_line {
     position: absolute;
     top: 0rem;
@@ -159,6 +177,12 @@
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
+  .mss_footerLIneOne {
+    top: -5rem;
+    left: -6rem;
+    height: 12rem;
+    width: 25rem;
+  }
   .mss_cardSection {
     height: 393px;
     width: 250px;
@@ -166,7 +190,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   .mss_handDirectionDiv {
     position: absolute;
@@ -183,7 +207,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
   }
   .mss_handDirectionDiv {
     position: absolute;
