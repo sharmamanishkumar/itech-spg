@@ -1,4 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .mss_copy {
+    width: 100%;
+  }
   .mss_cardSection {
     margin-top: 2rem;
   }
@@ -63,6 +66,9 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .mss_copy {
+    width: 100%;
+  }
   .mss_cardSection {
     margin-top: 2rem;
   }
@@ -195,6 +201,9 @@
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
+  .flip-card-front {
+    width: 260px;
+  }
   .mss_desc_div p {
     margin: 0;
     width: 60%;

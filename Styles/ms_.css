@@ -330,6 +330,8 @@
   /* display: flex; */
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  width: 260px;
 }
 
 .flip-card-back {
@@ -340,4 +342,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
