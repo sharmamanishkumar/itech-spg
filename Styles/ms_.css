@@ -59,6 +59,8 @@
   font-size: 58px;
   font-weight: 300;
   line-height: 50px;
+  position: relative;
+  z-index: 1;
 }
 .mss_left_top_line {
   position: absolute;
