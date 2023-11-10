@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 480px) {
-  .mss_copy {
-    width: 100%;
+  .flip-card-front {
+    width: 298px;
   }
   .mss_cardSection {
     margin-top: 2rem;
@@ -64,9 +64,15 @@
   .mss_thirdCardSection {
     margin-top: 0;
   }
+  .mss_footerWidth {
+    width: 100%;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  .mss_copy {
+  .flip-card-front {
+    width: 298px;
+  }
+  .mss_footerWidth {
     width: 100%;
   }
   .mss_cardSection {
@@ -121,6 +127,18 @@
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+  .flip-card-front {
+    width: 303px;
+  }
+  .mss_deopDownMainDiv {
+    margin-bottom: 1rem;
+  }
+  .mss_footerLIneOne {
+    top: -5rem;
+    left: -6rem;
+    height: 8rem;
+    width: 22rem;
+  }
   .mss_handDirection {
     height: 5rem;
   }
@@ -175,6 +193,15 @@
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .flip-card-front {
+    width: 303px;
+  }
+  .mss_footerLIneOne {
+    top: -5rem;
+    left: -6rem;
+    height: 10rem;
+    width: 25rem;
+  }
   .mss_cardSection {
     margin-top: 2rem;
   }
